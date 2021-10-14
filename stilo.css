@@ -1,0 +1,21 @@
+body{
+    background-color: grey
+}
+h1{
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+h2{
+    color: yellow;
+    text-decoration: dashed;
+}
+p{
+    color: rgb(rgb(46, 3, 3), rgb(14, 216, 14), rgb(40, 40, 70));
+}
+.fogalom{
+    font-size: 115%;
+}
+span{
+    text-decoration: underline;
+}
