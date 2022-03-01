@@ -2,6 +2,10 @@ body {
     background-image: url(kepek/hatter.jpg);
     background-size: cover;
 }
+h5 {
+    color: #477998;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
 .container-fluid h1 {
     color: gold;
     font-family: 'Times New Roman', Times, serif;
@@ -9,4 +13,11 @@ body {
 }
 .navbar {
     border-radius: 15%;
+}
+.carousel {
+    width: 50%;
+    border: 2px solid black;
+}
+.slidekepek {
+    min-height: 481px;
 }
