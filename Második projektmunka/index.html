@@ -12,7 +12,8 @@
 </head>
 
 <body>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark opacity-75 m-auto">
             <div class="container-fluid">
                 <h1>Római Birodalom</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -26,10 +27,10 @@
                             <a class="nav-link active" aria-current="page" href="#bemutatas">Bemutatás</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Caesar kora</a>
+                            <a class="nav-link" href="#caesar">Caesar kora</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Augustus kora</a>
+                            <a class="nav-link" href="#octavianus">Augustus kora</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -42,34 +43,30 @@
                             </ul>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                 </div>
             </div>
         </nav>
-
-        <div id="carouselExampleDark" class="carousel carousel-dark slide mx-auto my-4" data-bs-ride="carousel">
+  <!-- Carousel -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide mx-auto my-4 carousel-fade" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="20000">
+            <div class="carousel-item active" data-bs-interval="10000">
               <img src="kepek/kiterjedes.png" class="d-block w-100 slidekepek" alt="Római Birodalom legnagyobb kiterjedése" title="Római Birodalom legnagyobb kiterjedése">
               <div class="carousel-caption d-none d-md-block mt-3">
                 <h5>Római Birodalom legnagyobb kiterjedése</h5>
               </div>
             </div>
-            <div class="carousel-item" data-bs-interval="2">
+            <div class="carousel-item" data-bs-interval="5000">
               <img src="kepek/zaszlo.jpg" class="d-block w-100 slidekepek" alt="Római Birodalom zászlaja" title="Római Birodalom zászlaja">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Zászlaja</h5>
               </div>
             </div>
-            <div class="carousel-item" data-bs-interval="1">
+            <div class="carousel-item" data-bs-interval="5000">
               <img src="kepek/fovaros.jpg" class="d-block w-100 slidekepek" alt="Kolosszeum" title="Kolosszeum">
               <div class="carousel-caption d-none d-md-block">
                 <h5>Fővárosa: Róma</h5>
@@ -85,27 +82,49 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-
-        <div class="row">
-          <div class="card text-white bg-dark col-lg-3 mt-5 rounded-1 me-5 ms-5">
+  <!-- Kartyak -->
+        <div class="row" id="bemutatas">
+          <div class="card text-white bg-dark col-lg-3 col-md-11 mt-5 rounded-3 me-5 ms-5">
             <div class="card-body">
               <h5 class="card-title">Előtörténete</h5>
               <p class="card-text">A monda szerint Róma városát Romulus és Remus, Mars hadisten és Rhea Silvia ikergyermekei alapították. Romulus és Remus madárjóslással döntöttek és Romulus lett Róma első királya. A város alapítását a hagyomány Kr. e. 753-ra tette. A mondai hagyomány szerint Rómának hét királya volt. A királyság kora két szakaszra tagolódik: a latin–szabin parasztkirályok korára és az etruszk eredetű Tarquinius-dinasztia uralkodóira. Ebben a korban jelentős gazdasági–társadalmi változások mentek végbe, Róma etruszk típusú városállammá fejlődött. Róma területi hódításait az ötödik király, az i. e. 6. század elején uralkodó Lucius Tarquinius Priscus római király kezdte meg a szomszédos etruszk városok leigázásával. A királyság egészen Lucius Tarquinius Superbus római király uralkodásáig tartott. A király elűzésével szűnt meg a római királyság i. e. 510 körül. </p>
             </div>
           </div>
-          <div class="card text-white bg-dark col-lg-3 mt-5 rounded-1 me-5 ms-5">
+          <div class="card text-white bg-dark col-lg-3 col-md-11 mt-5 rounded-3 me-5 ms-5">
             <div class="card-body">
-              <h5 class="card-title">Előtörténete</h5>
+              <h5 class="card-title">Itália meghódítása</h5>
               <p class="card-text">A királyságot i. e. 509-ben a köztársasági államforma váltotta fel. A fiatal Római Köztársaság elismerte Karthágó, az észak-afrikai pun állam kereskedelmi monopóliumát a Földközi-tengeren, cserébe az szavatolta Róma és szövetségesei sérthetetlenségét. Az i. e. 5. században Róma csak kemény harcokkal biztosíthatta fennmaradását a támadó latin törzsek és a királyság visszaállítására irányuló etruszk törekvések ellen. Miután a latin városokkal szövetségre léptek, az etruszkok és a vetélytárs dél-itáliai népek ellen összpontosították erőiket. A 4. század elején Fidenae és Veii (i. e. 396) városok legyőzésével Róma megkezdte az etruszkok központi területeinek meghódítását. Ugyanebben az időben kelta (gall) törzsek keltek át az Alpokon és telepedtek le Észak-Itáliában, a Pó folyó vidékén. A kelták itáliai hadjáratuk során hatalmas vereséget mértek a rómaiakra, és a Capitolium kivételével elfoglalták és felgyújtották a várost. </p>
             </div>
           </div>
-          <div class="card text-white bg-dark col-lg-3 mt-5 rounded-1 ms-5">
+          <div class="card text-white bg-dark col-lg-3 col-md-11 mt-5 rounded-3 ms-5">
             <div class="card-body">
-              <h5 class="card-title">Előtörténete</h5>
-              <p class="card-text">A monda szerint Róma városát Romulus és Remus, Mars hadisten és Rhea Silvia ikergyermekei alapították. Romulus és Remus madárjóslással döntöttek és Romulus lett Róma első királya. A város alapítását a hagyomány Kr. e. 753-ra tette. A mondai hagyomány szerint Rómának hét királya volt. A királyság kora két szakaszra tagolódik: a latin–szabin parasztkirályok korára és az etruszk eredetű Tarquinius-dinasztia uralkodóira. Ebben a korban jelentős gazdasági–társadalmi változások mentek végbe, Róma etruszk típusú városállammá fejlődött. Róma területi hódításait az ötödik király, az i. e. 6. század elején uralkodó Lucius Tarquinius Priscus római király kezdte meg a szomszédos etruszk városok leigázásával. A királyság egészen Lucius Tarquinius Superbus római király uralkodásáig tartott. A király elűzésével szűnt meg a római királyság i. e. 510 körül. </p>
+              <h5 class="card-title">A világbirodalom kialakulása</h5>
+              <p class="card-text">Az i. e. 3. század legvégén, a második pun háborúval Karthágó dőlt ki a versenytársak közül. A Földközi-tenger nyugati medencéjében ezzel Róma lett az úr, keleten azonban a görög világ virágzó hellenisztikus államai tartották hatalmukban a térséget. Amikor a makedónok hódító törekvései miatt Pergamon és Rhodosz Rómához fordultak, i. e. 200-ban kitört a második római–makedón háború (az első i. e. 214–205 között zajlott), mely római győzelemmel végződött. Bár Quinctius Flaminius római hadvezér kihirdette a görög államok szabadságát, valójában ettől kezdve a római hadsereg tartotta megszállása alatt Görögországot és Kis-Ázsia nyugati partvidékének városállamait.  </p>
             </div>
           </div>
         </div>  
+  <!-- Caesar -->
+        <div class="row mt-5 ms-4 leiras" id="caesar">
+          <div class="col-10">
+            <p>
+              Caius Iulius Caesar (Kr. e. 100. július 12./13. – Kr. e. 44. március 15) római hadvezér és politikus. Fontos szerepet játszott a  köztársaság felszámolásában és a császárság intézményének létrehozásában. Elfoglalta Galliát, és elsőként vezetett hadjáratot  Britanniába – mindkettőt saját kezdeményezésre. Minden idők egyik legnagyobb hadvezére (stratégája) volt és nagyszerű politikus is   (mindkettő alatt leginkább az értendő, hogy kitűnően tudott bánni az emberekkel). Jelentősége az ókor történetében Nagy Sándoréval  vetekedik. 
+              Kiépülő egyeduralma a királyságot (egyszemélyi uralmat) átoknak tekintő Rómában hamar komoly ellenérzésekkel találkozott. Polgárháború  bontakozott ki ellene, amit megnyert, és az így létrejött birodalom vitathatatlan urává lett. Mélyreható reformokba kezdett. Élethossziglani dictatorrá nyilvánította magát és erőteljesen központosította a köztársaság kései éveiben szétzilálódott közigazgatási  rendszert. Mondhatni, mindent sikerült megnyernie, csak polgártársait nem: Róma nem tolerálta őt. Az egyre hangosabb zúgolódást és a   diktatúrát látva Marcus Brutus és több szenátor összeesküdött és meggyilkolták Caesart, abban a reményben, hogy sikerül megmenteniük a  köztársaságot. A merénylet után azonban polgárháború tört ki Caesar hívei (Octavianus, Marcus Antonius, Lepidus) és a köztársaságiak   (Brutus, Cassius, Cicero és még sokan mások) között. 
+            </p>
+          </div>
+          <div class="col-2">
+            <img src="kepek/caesar.JPG" class="szemelykep" alt="Caesar" title="Caesar">
+          </div>
+        </div>  
+  <!-- Augustus -->
+        <div class="row mt-5 ms-4 leiras" id="octavianus">
+          <div class="col-10">
+            Imperator Caesar Augustus divi filius, általánosan elterjedt néven Augustus császár (Róma, i. e. 63. szeptember 23. – Nola, i. sz. 14. augusztus 19.) a Római Birodalom első császára (uralkodott i. e. 27-től haláláig, i. sz. 14-ig), a római történelem egyik legfontosabb alakja volt. Az Octavianus nevet maga soha nem használta, bár örökbefogadása után a régi szokás szerint neve ez lett volna: Caius Iulius Caesar Octavianus. 
+            Karrierje Caius Iulius Caesar fogadott fiaként, a dictator híveinek támogatását elnyerve indult, ám kiváló államférfiként jelentős mértékben különböző politikát folytatott. Az idő őt igazolta: nemcsak egyszemélyi uralma stabilizálódott évtizedekre, hanem a császárság rendszere is, melynek politikai, államigazgatási, katonai és társadalmi alapjait egyaránt ő vetette meg. 
+          </div>
+          <div class="col-2">
+            <img src="kepek/augustus.jpg" class="szemelykep ms-3" alt="Augustus" title="Augustus">
+          </div>
+        </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

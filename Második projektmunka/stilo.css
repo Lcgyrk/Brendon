@@ -9,15 +9,29 @@ h5 {
 .container-fluid h1 {
     color: gold;
     font-family: 'Times New Roman', Times, serif;
-    text-decoration: underline dotted 4%;
+    border: 2px dotted gold;
+    border-radius: 4%;
+    font-style: oblique;
 }
 .navbar {
-    border-radius: 15%;
+    border-radius: 0 0 20% 20%;
+    max-width: 90%;
 }
 .carousel {
     width: 50%;
     border: 2px solid black;
 }
 .slidekepek {
+    min-width: 400px;
     min-height: 481px;
+}
+.leiras {
+    color: silver;
+    font-size: larger;
+    text-shadow: black 10px 10px 10px;
+}
+.szemelykep {
+    height: 250px;
+    width: 125px;
+    border: 0.2rem solid black;
 }
